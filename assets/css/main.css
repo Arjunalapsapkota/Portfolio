@@ -94,6 +94,13 @@ nav a img{
     .pimg1,.pimg2,.pimg3{
         background-attachment:scroll;
     }
+    .pimg1{
+        min-height: 400px;
+    }
+   .img22{
+        width:100px;
+   }
+   .icon-bar {display: none;}
 }
 .scroll-arrow{
     color:rgb(15, 59, 88);
@@ -125,6 +132,8 @@ nav a img{
     position: fixed;
     top: 50%;
     right: 0%;
+    /* bottom:0%;
+    left:50%; */
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -155,20 +164,12 @@ nav a img{
     color: white;
     }
   
-    .google {
-    background: #dd4b39;
-    color: white;
-    }
   
     .linkedin {
     background: #007bb5;
     color: white;
     }
   
-    .youtube {
-    background: #bb0000;
-    color: white;
-    }
     section img, .shadow{
         filter: drop-shadow(5px 10px 10px rgb(175, 40, 40)); 
     }
@@ -185,4 +186,7 @@ nav a img{
     .section-dark{
         background-color: black;
         color: white;
+    }
+    .img22{
+        width:250px;
     }
