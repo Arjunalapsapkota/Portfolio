@@ -7,23 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
-    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     
-
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/animate.css" />
     <script src="assets/javascript/main.js"></script>
     
 </head>
 <body>
     <!--               Navbar Section     -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky">
         <a href="index.html" class="navbar-brand"><img src="assets/images/logo.png"></a>
         <button class="navbar-toggler">
             <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarmenu"></span>
@@ -40,7 +37,7 @@
                     <a class="nav-link" href="#"><span id"menu">CONTACT</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><span id"menu">INSTANT-QUOTE</span></a>
+                    <a class="nav-link" href="#"><span id"menu"><span class="bg-success">Hire-me</span></span></a>
                 </li>
             </ul>
                       
@@ -52,31 +49,38 @@
     <div class="icon-bar">
             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-            <a href="#" class="google"><i class="fa fa-google"></i></a> 
-            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>         
     </div>
 
     <!--  ************************************************************************************-->
     <div>
         <div class="pimg1">
-            <div class="ptext">
+            <div class="ptext animated flipInX">
                 <span class="border">
-                    Arjun Sapkota
+                   <strong>Arjun Sapkota</strong>
                 </span>
-               
+               <img src="assets/images/arjun.png" style="width:150px;">
             </div>
            
         </div>
     </div>
 
-   <section class="section section-light">
-        <div class="intro-section">
-               <span class="h-text text-warning">&lt; I LOVE CODE/&gt;</span>
-               <br>
-               <span class="l-text"> Hi, I am Arjun! I am a full-stack web developer based in Berkeley. I enjoy designing beautiful, intuitive and functional websites!</p> </span>
-        </div>
-        <h2>Core Competencies</h2>
+    <div id ="about">
+
+        <section class="section section-light">
+                <img src="assets/images/Arjun.jpg" style="width:250px">   
+        </section>
+
+        <section class="section section-light">
+            <div class="intro-section">
+                <span class="h-text text-warning animated swing">&lt; I LOVE CODE/&gt;</span>
+                <br>  
+                <span class="l-text"> Hi, I am Arjun! I am a full-stack web developer based in Berkeley. I enjoy designing beautiful, intuitive and functional websites!</p> </span>
+            </div>
+                
+        </section>
+        <section class="section section-light">
+            <h2>Core Competencies</h2>
         <p></p>
         <br>
         <img class="logo" src="assets/images/nodejs.png">
@@ -88,23 +92,8 @@
         <img class="logo" src="assets/images/mongo.png">
         <img class="logo" src="assets/images/jquery.png">
         <img class="logo" src="assets/images/firebase.png">
-    </section>
-   <!--  ************************************************************************************-->
-
-
-   <!--  ************************************************************************************-->
-   <div class="pimg2">
-        <div class="ptext">
-            <span class="border">
-               Image Two text
-            </span>
-        </div>
+        </section>
     </div>
-
-    <section class="section section-dark">
-            <h2>section two</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, minus consectetur nam ipsam beatae eveniet ipsum nostrum quis ea esse dolores debitis. Beatae ad quibusdam laudantium harum, impedit eum ipsa tempora quod accusamus quia illum inventore fugit magni temporibus dignissimos sunt delectus aliquam, officia, ut praesentium alias? Rerum, repellat eos!</p>
-    </section>
     <!--  ************************************************************************************-->
 
 
@@ -118,8 +107,10 @@
     </div>
         
     <section class="section section-dark">
-        <h2>section three</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, minus consectetur nam ipsam beatae eveniet ipsum nostrum quis ea esse dolores debitis. Beatae ad quibusdam laudantium harum, impedit eum ipsa tempora quod accusamus quia illum inventore fugit magni temporibus dignissimos sunt delectus aliquam, officia, ut praesentium alias? Rerum, repellat eos!</p>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+          
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
     </section>
     <!--  ************************************************************************************-->
     <div class="scroll-arrow">
@@ -129,6 +120,6 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>

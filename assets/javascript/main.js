@@ -9,7 +9,7 @@ $(document).ready(function(){
   //     $(this).css("width",'100px');
   //  });
 
-  
+
     //change the color of up-arrow key at the bottom when user hovers
     $(".scroll-arrow").hover(function(){
         //mouse in
@@ -21,7 +21,7 @@ $(document).ready(function(){
     //display up arrow key at the bottom only when user scrolls down
     $(window).scroll(function() {
 
-        
+
         var scrollTop = $(this).scrollTop();
       
         $('.scroll-arrow').css({
