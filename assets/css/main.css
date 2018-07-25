@@ -39,7 +39,7 @@ body,html{
 }
 .pimg1{
     background-image:   url("../images/intro.jpg");
-    min-height:1000px;
+    min-height:550px;
 }
 .pimg2{
     background-image:   url("../images/star.jpg");
@@ -59,7 +59,7 @@ nav a img{
     font-size:27px;
 }
 .l-text{
-    font-size:22px;
+    font-size:1.3em;
    
 }
 .ptext{
@@ -105,12 +105,11 @@ nav a img{
 .scroll-arrow{
     color:rgb(15, 59, 88);
     opacity:0;
-    float:right;
+    right:1%;
+    bottom:0%; 
     padding:1em;
-    bottom:0;   
-    position: -webkit-sticky;
-    position: sticky;
-    
+    position: fixed;
+    z-index: 1000;
    
 
 }
