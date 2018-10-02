@@ -5,6 +5,14 @@
     background-size: cover;
     font-family: 'Merienda', cursive;
 } */
+.picture{
+    margin:9em;
+}
+.description{
+    margin-top:9em;
+    
+    padding-right: 4em;
+}
 .sticky {
     position: fixed;
     top: 0;
@@ -28,7 +36,7 @@ body,html{
 }
 .pimg1,.pimg2,.pimg3{
     position:relative;
-    opacity:0.60;
+    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,8 +45,15 @@ body,html{
        scroll: normal */
     background-attachment: fixed;
 }
+.rcorners {
+    border-radius: 15px 50px 30px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
 .pimg1{
-    background-image:   url("../images/intro.jpg");
+    /* background-image:   url("../images/intro.jpg"); */
     min-height:550px;
 }
 .pimg2{
@@ -149,6 +164,16 @@ nav a img{
    
     }
   
+    .card{
+        z-index: 100;
+        filter: drop-shadow(0 0 0.75rem crimson);
+        display: -webkit-inline-flex;
+        margin:2em;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        vertical-align: -webkit-baseline-middle;
+    }
 
     .icon-bar a:hover {
       background-color: #000;
@@ -174,9 +199,9 @@ nav a img{
         filter: drop-shadow(5px 10px 10px rgb(175, 40, 40)); 
     }
     .section{
-        text-align:center;
+        text-align: center;
         padding: 30px 60px;
-       
+        /* margin-bottom: 4em; */
     }
     .section-light{
         background-color: #fff;
@@ -184,7 +209,7 @@ nav a img{
     
     }
     .section-dark{
-        background-color: black;
+        background-color:#c5aeae;
         color: white;
     }
     .img22{
