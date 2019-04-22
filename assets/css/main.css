@@ -2,6 +2,13 @@
   width: 40%;
   margin: auto;
 }
+
+.box {
+  margin: 3em 0 3em 0;
+}
+.card-wrapper img {
+  border-radius: 15px;
+}
 table {
   border-top-style: none;
   border-left-style: none;
@@ -31,7 +38,7 @@ html {
 }
 
 #about {
-  margin-top: 5em;
+  margin-top: 10em;
 }
 .h-text {
   font-size: 2em;
@@ -76,7 +83,7 @@ img.logo {
   z-index: 1000;
   position: fixed;
   top: 65%;
-  right: 0%;
+  left: 0%;
   /* bottom:0%;
     left:50%; */
   -webkit-transform: translateY(-50%);
@@ -95,6 +102,7 @@ img.logo {
 
 .card {
   z-index: 100;
+  border-radius: 15px;
   filter: drop-shadow(0 0 0.75rem crimson);
   display: -webkit-inline-flex;
   margin: 2em;
