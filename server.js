@@ -67,7 +67,7 @@ app.post("/contact", function(req, res) {
     });
     mailOpts = {
       from: req.body.name + " &lt;" + req.body.email + "&gt;",
-      to: "rejinathapa13@gmail.com",
+      to: "arjunalapsapkota@gmail.com",
       subject: "Customer Inquiry from EBQ salon",
       text: `${req.body.name} (${req.body.email}) says: ${req.body.message}`
     };
