@@ -68,7 +68,7 @@ app.post("/contact", function(req, res) {
     mailOpts = {
       from: req.body.name + " &lt;" + req.body.email + "&gt;",
       to: "arjunalapsapkota@gmail.com",
-      subject: "Customer Inquiry from EBQ salon",
+      subject: "Recruiter from portfolio",
       text: `${req.body.name} (${req.body.email}) says: ${req.body.message}`
     };
     smtpTrans.sendMail(mailOpts, function(error, response) {
