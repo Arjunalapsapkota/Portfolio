@@ -21,8 +21,8 @@
   /* box-shadow: inset 0px 0px 40px 40px #304a5e;  */
 }
 #about {
-  margin: 8em 0;
-  padding: 6em 0;
+  margin: 4em 0;
+  padding: 4em 0;
   background: url(../images/background.svg);
   position: relative;
 
@@ -153,7 +153,6 @@ html {
   font-size: 20px;
 }
 .card-img-top {
-
   width: 20em;
   height: 15em;
   border-color: red;
