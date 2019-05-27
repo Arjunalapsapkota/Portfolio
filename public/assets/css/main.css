@@ -153,7 +153,6 @@ html {
   font-size: 20px;
 }
 .card-img-top {
-  width: unset;
   flex: 1;
   width: 20em;
   height: 15em;
