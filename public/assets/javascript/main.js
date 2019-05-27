@@ -21,15 +21,7 @@ $(document).ready(function() {
       }
     });
   });
-  $(".scroll-arrow").click(function(e) {
-    e.preventDefault();
-    $("body,html").animate(
-      {
-        scrollTop: $(this.hash).offset().top
-      },
-      300
-    );
-  });
+
   $("#submit_button").click(event => {
     event.preventDefault();
     // fill the form first - All fields Required
