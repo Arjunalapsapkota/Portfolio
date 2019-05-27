@@ -1,14 +1,74 @@
+#menu {
+  color: orange;
+}
+
+.portfolio-card {
+  border-color: #c5aeae;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.cardTitle {
+  padding-top: 1em;
+  padding-left: 2em;
+}
+#follow {
+  margin-top: 2em;
+  background-color: #283f60;
+  /* background: linear-gradient(to right bottom, #283f60 50%, #284e51 50%); */
+  padding-top: 5em;
+  padding-bottom: 5em;
+  /* Change the shadow property to alter the effect */
+  /* box-shadow: inset 0px 0px 40px 40px #304a5e;  */
+}
+#about {
+  margin: 8em 0;
+  padding: 6em 0;
+  background: url(../images/background.svg);
+  position: relative;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment: fixed;
+}
+.core-compentencies {
+  margin-top: 100em;
+}
 .skills {
   width: 40%;
   margin: auto;
 }
-
+embed {
+  width: 100%;
+  height: 100%;
+}
+#svgator .row .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.animationBox {
+  justify-content: center;
+  width: 60%;
+  height: 60%;
+}
+#portfolio {
+  /* background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%); */
+  background: linear-gradient(#283f51, #1a1d27);
+}
+#contact {
+  background: linear-gradient(#1a1d27, #283f51);
+}
+/* .row {
+  background-color: rgb(31, 30, 30);
+} */
 .box {
   margin: 3em 0 3em 0;
 }
-.card-wrapper img {
+/* .card-wrapper img {
   border-radius: 15px;
-}
+} */
 table {
   border-top-style: none;
   border-left-style: none;
@@ -18,8 +78,8 @@ table {
 .table td {
   border-top: none;
 }
-body {
-  background: black;
+#svgator {
+  background: rgb(40, 63, 81);
 }
 body,
 html {
@@ -29,24 +89,26 @@ html {
   font-family: "lato", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
-  color: #666;
-  background-color: #fff;
+  /* color: #666; */
+  color: rgb(187, 184, 184);
+  background-color: #283f51;
+
   font-family: "Merienda", cursive;
 }
+
 .headTitle {
   margin-top: 2em;
 }
 
-#about {
-  margin-top: 10em;
-}
 .h-text {
   font-size: 2em;
 }
 .l-text {
   font-size: 1.5em;
 }
-
+.a-link {
+  justify-self: baseline;
+}
 .img22 {
   width: 250px;
 }
@@ -58,15 +120,6 @@ html {
 .picture-padding {
   padding-top: 3em;
 }
-.scroll-arrow {
-  color: rgb(15, 59, 88);
-  opacity: 0;
-  right: 2%;
-  bottom: 0%;
-  padding: 1em;
-  position: fixed;
-  z-index: 1000;
-}
 
 .logo {
   border: 0.25em;
@@ -75,9 +128,9 @@ html {
   padding: 0.8em;
   margin: 0.25em;
 }
-img.logo {
+/* img.logo {
   filter: drop-shadow(5px 10px 10px rgb(175, 40, 40));
-}
+} */
 
 .icon-bar {
   z-index: 1000;
@@ -96,28 +149,37 @@ img.logo {
   text-align: center;
   padding: 16px;
   transition: all 0.3s ease;
-  color: white;
+  color: rgb(17, 16, 16);
   font-size: 20px;
+}
+.card-img-top {
+  width: unset;
+  flex: 1;
+  width: 20em;
+  height: 15em;
+  border-color: red;
+  border-width: 2px;
+  border-radius: 5px;
 }
 
 .card {
   width: 20em;
-  height: 30em;
+  height: 32em;
   z-index: 100;
-  border-radius: 15px;
-  filter: drop-shadow(0 0 0.75rem crimson);
+  border: unset;
+  background-color: unset;
   display: -webkit-inline-flex;
   margin: 2em;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  vertical-align: -webkit-baseline-middle;
 }
 .card-body {
-  background-color: #ecf0f1;
-  border-radius: 15px;
-  justify-content: center;
-  align-content: center;
+  margin-top: 1em;
+  /* background-color: #172a44; */
+  background-color: rgb(40, 63, 81);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 16em;
 }
 
 .icon-bar a:hover {
@@ -139,10 +201,10 @@ img.logo {
   color: white;
 }
 
-section img,
+/* section img,
 .shadow {
   filter: drop-shadow(5px 10px 10px rgb(175, 40, 40));
-}
+} */
 .section {
   text-align: center;
   padding: 30px 60px;
@@ -150,7 +212,6 @@ section img,
   margin-top: 2em;
 }
 .section-light {
-  background-color: #fff;
   color: #666;
 }
 .section-dark {
@@ -192,3 +253,15 @@ section img,
     padding-right: 0em;
   }
 }
+.scroll-arrow {
+  color: rgb(195, 219, 235);
+  opacity: 0;
+  right: 2%;
+  bottom: 0%;
+  padding: 1em;
+  position: fixed;
+  z-index: 1;
+}
+/* input {
+  background-color: rgb(54, 52, 52);
+} */
