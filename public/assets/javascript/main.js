@@ -3,11 +3,11 @@ $(document).ready(function() {
   $(".scroll-arrow").hover(
     function() {
       //mouse in
-      $(".scroll-arrow").css("color", "black");
+      $(".scroll-arrow").css("color", "red");
     },
     function() {
       //mouse out
-      $(".scroll-arrow").css("color", "rgb(15, 59, 88)");
+      $(".scroll-arrow").css("color", "red");
     }
   );
   //display up arrow key at the bottom only when user scrolls down
@@ -20,6 +20,15 @@ $(document).ready(function() {
         return 1 - (elementHeight - scrollTop) / elementHeight;
       }
     });
+  });
+  $(".scroll-arrow").click(function(e) {
+    e.preventDefault();
+    $("body,html").animate(
+      {
+        scrollTop: $(this.hash).offset().top
+      },
+      300
+    );
   });
   $("#submit_button").click(event => {
     event.preventDefault();
