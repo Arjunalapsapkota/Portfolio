@@ -14,12 +14,18 @@
     
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/animate.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/portfolio.css" />
+    
     <script src="/assets/javascript/main.js"></script>
     
 </head>
 <body>
     <!--               Navbar Section     -->
+<<<<<<< HEAD
     <nav class="navbar navbar-expand-sm navbar-light " id="top">
+=======
+    <nav id="top" class="navbar navbar-expand-sm navbar-light ">
+>>>>>>> 525344c75adb396b121655f30e9a4d3c6b3d0877
      
         <button class="navbar-toggler">
             <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarmenu"></span>
@@ -33,11 +39,9 @@
                         <a class="nav-link scroll" href="#portfolio"><span id="menu">PORTFOLIO</span></a>
                     </li>
                 <li class="nav-item">
-                    <a class="nav-link scroll" href="#bottom"><span id="menu">CONTACT</span></a>
+                    <a class="nav-link scroll" href="#contact"><span id="menu">CONTACT</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll" href="#hire"><span id="menu"><span class="bg-success">Hire-me</span></span></a>
-                </li>
+                
             </ul>
                       
         </div>
@@ -46,16 +50,18 @@
     <div class="icon-bar">
             <a href="https://www.facebook.com/sapkota.arjun.902" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-            <a href="https://www.linkedin.com/in/arjunalapsapkota/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>         
+            <a href="https://www.linkedin.com/in/arjunsapkota/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>         
     </div>
-    
+    <div class="scroll-arrow">
+        <a href="#top" class="scroll"><i class="fas fa-arrow-alt-circle-up fa-3x"></i></a> 
+    </div>
     <div id="about">
-
+        
         <div class="row ">
             <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="picture-padding">
                     <div class=" text-center">
-                    <img  class="img22 animated bounce" src="assets/images/arjun2.png">    
+                    <img  class="img22 animated bounce" src="assets/images/AS.svg">    
                 </div>  
                 </div>
                   
@@ -73,7 +79,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="core-competencies">
         <section class="section section-light">
                 <h2>Core Competencies</h2>
             <p></p>
@@ -189,41 +195,63 @@
                                     </div>
                                 </td>
                             </tr>
+                            <tr>
+                                <td>Photoshop
+                                    <div class="progress" style="height: 3px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    </td>
+                                <td>Adobe Illustrator
+                                    <div class="progress" style="height: 3px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>SVG
+                                    <div class="progress" style="height: 3px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    </td>
+                                <td>CSS Animation
+                                    <div class="progress" style="height: 3px;">
+                                        <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
                   
             </table>
         </div>
         
     </div>
-    <div class="conatiner text-center">
-        <div class="box">
-            <a href ="./assets/Resume.docx" download="Resume" style="text-decoration: none"><h5>Download Resume</h5></a>
-        </div>
-        
-    </div>
+   
+  
     
-    <div>
-       <h2 class="text-center headTitle">Portfolio</h2>
-    <div class="portfolio text-center">
+    <div id="portfolio" style="padding-top:0.5em">
+       <h2 class="text-center headTitle">Things I built</h2>
+    <div  class="portfolio text-center">
         <div class="card-wrapper">
             <div class="card">
                 <img class="card-img-top" src="assets/images/a.png" alt="Card image cap">
-                <div class="card-body">
+                <div class="card-body ">
                     
-                    <br>
                     <strong>Search Events near you! </strong><br>
                     <small>Technologies Used: <br>Javascript, CSS, Openstreet-Map-API, Eventful-API</small><br>
-                    <a href="https://project-alpha-team.github.io/TheOne-and-Only/" class=" ">Bandwagon</a>
+                    <a href="https://project-alpha-team.github.io/TheOne-and-Only/" class="a-link">Bandwagon  <i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="card">
                     <img class="card-img-top" src="assets/images/b.png" alt="Card image cap">
                     <div class="card-body">
-                        
                         <strong>Birdie-Auth Mechanism</strong><br>
                         <small>Technoloiges Used: <br>
                         React, Redux, NodeJs, Nodemailer, Passport-Local, Passport-Facebook/Google, Express, ASync Javascript<br>
                         </small>
-                        <a href="https://birdiez.herokuapp.com/" class="">Birdie</a>
+                        <a href="https://birdiez.herokuapp.com/" class="a-link">Birdie  <i class="fas fa-external-link-alt"></i></a>
                     </div>
             </div>
             <div class="card">
@@ -231,7 +259,7 @@
                     <div class="card-body">
                         <strong>EBQ-Saloon</strong>
                        <br><small>Technologies Used: <br>HTML, CSS, Javascript, Gmail-API for Email</small><br>
-                        <a href="https://ebqsalon.herokuapp.com/" class="">EBQ-saloon</a>
+                        <a href="https://ebqsalon.herokuapp.com/" class="a-link">EBQ-saloon <i class="fas fa-external-link-alt"></i></a>
                     </div>
             </div>
             <div class="card">
@@ -239,134 +267,160 @@
                 <div class="card-body">
                     <strong>Redux-Add-to-Cart</strong>
                     <br><small><small>Simple App to demonstrate how redux works</small><br>Technologies Used: <br> React, Redux</small><br>
-                    <a href="https://redux-cartz.herokuapp.com/" class="">Redux-Cart</a>
+                    <a href="https://redux-cartz.herokuapp.com/" class="a-link">Redux-Cart  <i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="https://github.com/Arjunalapsapkota/R-Native-Firebase-Auth/blob/master/src/ReactNative-App.png?raw=true" alt="Card image cap" style="width:40%;align-self: center">
+                <img class="card-img-top" src="assets/images/mobile.jpg" alt="Card image cap" >
                 <div class="card-body">
                     <strong>React-Native-App</strong>
                     <br><small><small>Simple Authentication app with Firebace</small><br>Technologies Used: <br> React, React-Native, Firebase</small><br>
-                    <a href="https://github.com/Arjunalapsapkota/R-Native-Firebase-Auth" class="">React-Native-Auth</a>
+                    <a href="https://github.com/Arjunalapsapkota/R-Native-Firebase-Auth" class="a-link">React-Native-Auth  <i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
         </div>
     </div>
     </div>
+    <div class="container" id="svgator">
+        <h2 class="text-center headTitle">I draw Vector graphics  at times</h2>
+        <div class="row">
+          
+            <div class="col" >  
+                    <div class="animationBox m-2">
+                        <object>
+                            <embed src="./assets/images/clock.svg" />
+                        </object>
+                    </div>
+            </div>
+            <div class="col" >  
+                    <div class="animationBox m-2">
+                        <object>
+                            <embed src="./assets/images/butfly.svg" />
+                        </object>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+<div id="contact" >
     <div class="container" style="padding:2em">
       
-<section class="my-5">
-        <h2 class="h1-responsive font-weight-bold text-center my-5">Drop me a mail</h2>
-        <!-- Section description -->
-        <p class="text-center w-responsive mx-auto mb-5">I am happy to answer any question that you have or provide you information. Just use this form to write your message and I will get back to you as soon as possible.</p>
-      
-        <!-- Grid row -->
-        <div class="row">
-      
-          <!-- Grid column -->
-          <div class="col-md-9 mb-md-0 mb-5">
-      
-            <form>
-      
-              <!-- Grid row -->
-              <div class="row">
-      
-                <!-- Grid column -->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input type="text" id="contact-name" class="form-control">
-                    <label for="contact-name" class="">Your name</label>
-                  </div>
-                </div>
-                <!-- Grid column -->
-      
-                <!-- Grid column -->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input type="text" id="contact-email" class="form-control">
-                    <label for="contact-email" class="">Your email</label>
-                  </div>
-                </div>
-                <!-- Grid column -->
-      
-              </div>
-              <!-- Grid row -->
-      
-              <!-- Grid row -->
-              <div class="row">
-      
-                <!-- Grid column -->
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
-                    <input type="text" id="contact-Subject" class="form-control">
-                    <label for="contact-subject" class="">Subject</label>
-                  </div>
-                </div>
-                <!-- Grid column -->
-      
-              </div>
-              <!-- Grid row -->
-      
-              <!-- Grid row -->
-              <div class="row">
-      
-                <!-- Grid column -->
-                <div class="col-md-12">
-                  <div class="md-form">
-                    <textarea type="text" id="contact-message" class="form-control md-textarea" rows="3"></textarea>
-                    <label for="contact-message">Your message</label>
-                  </div>
-                </div>
-                <!-- Grid column -->
-      
-              </div>
-              <!-- Grid row -->
-      
-            </form>
-      
-            <div class="text-center text-md-left">
-              <a class="btn btn-primary btn-md" id="submit_button"><span style="color:white">Send</span></a>
-            </div>
-      
-          </div>
-          <!-- Grid column -->
-      
-          <!-- Grid column -->
-          <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
+        <section class="my-5">
+                <h2 class="h1-responsive font-weight-bold text-center my-5">Drop me a mail</h2>
+                <!-- Section description -->
+                <p class="text-center w-responsive mx-auto mb-5">I am happy to answer any question that you have or provide you information. Just use this form to write your message and I will get back to you as soon as possible.</p>
               
-              <li>
-                <i class="fa fa-phone fa-2x mt-4 blue-text"></i>
-                <p>+1 510 417 6557</p>
-              </li>
-              <li>
-                <i class="fa fa-envelope fa-2x mt-4 blue-text"></i>
-                <p class="mb-0">arjunalapsapkota@gmail.com</p>
-              </li>
-            </ul>
-          </div>
-          <!-- Grid column -->
-      
+                <!-- Grid row -->
+                <div class="row">
+              
+                  <!-- Grid column -->
+                  <div class="col-md-9 mb-md-0 mb-5">
+              
+                    <form>
+              
+                      <!-- Grid row -->
+                      <div class="row">
+              
+                        <!-- Grid column -->
+                        <div class="col-md-6">
+                          <div class="md-form mb-0">
+                            <input type="text" id="contact-name" class="form-control">
+                            <label for="contact-name" class="">Your name</label>
+                          </div>
+                        </div>
+                        <!-- Grid column -->
+              
+                        <!-- Grid column -->
+                        <div class="col-md-6">
+                          <div class="md-form mb-0">
+                            <input type="text" id="contact-email" class="form-control">
+                            <label for="contact-email" class="">Your email</label>
+                          </div>
+                        </div>
+                        <!-- Grid column -->
+              
+                      </div>
+                      <!-- Grid row -->
+              
+                      <!-- Grid row -->
+                      <div class="row">
+              
+                        <!-- Grid column -->
+                        <div class="col-md-12">
+                          <div class="md-form mb-0">
+                            <input type="text" id="contact-Subject" class="form-control">
+                            <label for="contact-subject" class="">Subject</label>
+                          </div>
+                        </div>
+                        <!-- Grid column -->
+              
+                      </div>
+                      <!-- Grid row -->
+              
+                      <!-- Grid row -->
+                      <div class="row">
+              
+                        <!-- Grid column -->
+                        <div class="col-md-12">
+                          <div class="md-form">
+                            <textarea type="text" id="contact-message" class="form-control md-textarea" rows="3"></textarea>
+                            <label for="contact-message">Your message</label>
+                          </div>
+                        </div>
+                        <!-- Grid column -->
+              
+                      </div>
+                      <!-- Grid row -->
+              
+                    </form>
+              
+                    <div class="text-center text-md-left">
+                      <a class="btn btn-primary btn-md" id="submit_button"><span style="color:white">Send</span></a>
+                    </div>
+              
+                  </div>
+                  <!-- Grid column -->
+              
+                  <!-- Grid column -->
+                  <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                      
+                      <li>
+                        <i class="fa fa-phone fa-2x mt-4 blue-text"></i>
+                        <p>+1 510 417 6557</p>
+                      </li>
+                      <li>
+                        <i class="fa fa-envelope fa-2x mt-4 blue-text"></i>
+                        <p class="mb-0">arjunalapsapkota@gmail.com</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Grid column -->
+              
+                </div>
+                <!-- Grid row -->
+              
+              </section>
+              <!-- Section: Contact v.2 -->  
         </div>
-        <!-- Grid row -->
-      
-      </section>
-      <!-- Section: Contact v.2 -->  
-    </div>
+</div>
         
-    <section class="section section-dark" id="bottom">
-        
-            <a href="https://www.facebook.com/sapkota.arjun.902" target="_blank" class="linkSpace"><i class="fa fa-facebook fa-2x"></i></a> 
-            <a href="#" class="linkSpace"><i class="fa fa-twitter fa-2x"></i></a> 
-            <a href="https://www.linkedin.com/in/arjunalapsapkota/" target="_blank" class="linkSpace"><i class="fa fa-linkedin fa-2x"></i></a> 
-            <br>
-            <span class="blue-text">&copy; Arjun Sapkota</span>
-       
-    </section>
- 
-    <div class="scroll-arrow">
-       <a href="#top" class="scroll"><i class="fas fa-arrow-alt-circle-up fa-3x"></i></a> 
+<div id="follow">
+    <div class="conatiner text-center">
+        <div class="row">
+           <div class="col" style="text-align: right; " >
+            <a href ="./assets/Resume.docx" download="Resume" style=" text-decoration: none;"><h5>Find My Resume</h5></a>
+           </div>
+           <div class="col">
+            <a href ="https://github.com/Arjunalapsapkota"  style="text-decoration: none;"><h5>Find me on github</h5></a>
+           </div>
+           <div class="col" style="text-align: left; ">
+            <a href ="www.linkedin.com/in/arjunsapkota"  style="text-decoration: none;"><h5>Find Me on Linkedin</h5></a>
+           </div>
+        </div>
     </div>
+   </div>
+
 
 
 
